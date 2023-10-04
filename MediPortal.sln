@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{C4A15E95-F365-480D-9CD1-4204468CF398}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{4129807B-DA7C-47BF-806B-44C8C4F771B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{52F52981-4FFA-4238-B116-6A6C4B978B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_side", "Client_side\Client_side.csproj", "{6DEA244C-8839-4661-BEE8-A1DC2103CFE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DEA244C-8839-4661-BEE8-A1DC2103CFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEA244C-8839-4661-BEE8-A1DC2103CFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEA244C-8839-4661-BEE8-A1DC2103CFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEA244C-8839-4661-BEE8-A1DC2103CFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DEA244C-8839-4661-BEE8-A1DC2103CFE8} = {C4A15E95-F365-480D-9CD1-4204468CF398}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25F83564-6A17-4C83-A2BF-636182F94D00}
+	EndGlobalSection
+EndGlobal
